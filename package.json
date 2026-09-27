@@ -1,0 +1,22 @@
+{
+  "name": "terra-disaster-webgis",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "lucide": "^0.468.0",
+    "maplibre-gl": "^6.11.2",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9",
+    "vite": "^7.1.0"
+  }
+}
